@@ -85,6 +85,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text('Welcome'),
+            Image.asset("assets/images/logo.png", width: 300, height: 100),
+            SizedBox(height: 20.0),
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(18.0),
